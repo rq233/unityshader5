@@ -1,0 +1,9 @@
+Shader "ablation" {
+    Properties{
+        _Color("Color", Color) = (1,1,1,1)
+        _Specular("Specular", Color) = (1,1,1,1)
+
+        _Noise("Noise",2D) = "White"{}
+        _
+    }
+}
